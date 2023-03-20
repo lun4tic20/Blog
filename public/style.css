@@ -1,0 +1,82 @@
+form {
+    margin-bottom: 1rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  button[type="submit"] {
+    background-color: #1d2738;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #3d4046;
+  }
+
+  h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  li strong {
+    font-weight: bold;
+  }
+
+  .tag {
+    display: inline-block;
+    background-color: #e2e8f0;
+    color: #4a5568;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 9999px;
+  }
+
+  .icono{
+    display:inline-block;
+    width:30px;
+  }
+
+  .btn-like {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 5%;
+  }
+
+  .like-icon {
+    transition: fill 0.2s ease-in-out;
+  }
+
+  .btn-like.active .like-icon {
+    fill: #ff0000;
+  }
